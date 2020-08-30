@@ -1,0 +1,97 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #0f10bd;
+}
+.links {
+    color: white;
+}
+.white {
+    background-color: white;
+}
+.flex {
+    display: flex;
+}
+
+
+header {
+    width: 99.3%;
+    height: 7vh;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    background-color: rgb(10, 10, 30);
+    font-size: 1.5rem;
+}
+
+header p{
+    color: white;
+    font-size: 30px;
+    margin-top:2px ;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+main {
+    width: 80%;
+    height: 80vh;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+}
+
+main > div {
+    width: 50%;
+    height: 100%;
+   
+}
+
+
+#super-hero-name {
+    height: 15%;
+    font-size: 300%;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+
+#super-hero-image {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+#super-hero-image img {
+    height: 95%;
+    width: 95%;
+}
+
+/* box for hero detail */
+#super-hero-details {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#hero-detail span {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 3px;
+    margin: 2px;
+    background-color:#3a8056;
+}
+
+.ques {
+    height: 100%;
+}
